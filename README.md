@@ -9,6 +9,9 @@ For each sequence, Σgraphr:
 
 These CSVs can be opened in Excel or Google Sheets and plotted as line charts. Characters that are evenly distributed rise smoothly; uneven distributions rise irregularly.
 
+This script is also available online (no code required) at:
+http://54.190.199.170/sigma_graphr/
+
 ## Output
 - **Single sequence input** → one CSV file  
 - **Multiple sequences input** → multiple CSV files (often bundled as a ZIP by the included web wrapper)
