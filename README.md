@@ -25,3 +25,61 @@ http://54.190.199.170/sigma_graphr/
 
 ## Credits / reference
 Σgraphr is based on the same general style of cumulative visualization used in SNAP (Synonymous Nonsynonymous Analysis Program) and related sequence-variation approaches.
+
+---
+
+## Download from GitHub
+
+### Option A: Download ZIP (no Git needed)
+1. On the GitHub repo page, click the green **Code** button
+2. Click **Download ZIP**
+3. Unzip it somewhere on your computer
+
+You should end up with a folder containing `sigma_graphr.py` in the root of the repo.
+
+### Option B: Clone with Git (for developers)
+```bash
+git clone <REPO_URL>
+cd <REPO_FOLDER>
+```
+
+## Requirements
+You must have **Python 3** installed.
+
+- Windows: install Python 3 from python.org (make sure “Add Python to PATH” is enabled if you want to run it from the command line)
+- macOS/Linux: Python 3 is often already installed, otherwise install via your package manager
+
+No `pip install` is required (this script uses only the Python standard library).
+
+## Run locally
+
+1. Put your input FAS/FASTA files in the `input` folder (next to `sigma_graphr.py`)
+2. Run the script
+3. Find results in the `output` folder
+
+### Run by double-click (Windows)
+If `.py` files are associated with Python on your system, you can double-click `sigma_graphr.py`.
+(If nothing happens, use one of the command-line options below.)
+
+### Run from Command Prompt / Terminal (recommended)
+Open a terminal in the repo folder (the one containing `sigma_graphr.py`), then run:
+
+**Windows (most common):**
+```bash
+py sigma_graphr.py
+```
+
+**Windows / macOS / Linux:**
+```bash
+python sigma_graphr.py
+```
+
+**macOS / Linux (if `python` points to Python 2):**
+```bash
+python3 sigma_graphr.py
+```
+
+## Where the output goes
+- Place `.fas` / `.fasta` / `.fa` files into `./input/`
+- Output will be written into `./output/`
+- If an input file contains multiple sequences, the script will generate a ZIP for that file (containing one CSV per sequence)
