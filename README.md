@@ -39,8 +39,8 @@ You should end up with a folder containing `sigma_graphr.py` in the root of the 
 
 ### Option B: Clone with Git (for developers)
 ```bash
-git clone <REPO_URL>
-cd <REPO_FOLDER>
+git clone https://github.com/HarryGibbs/sigma_graphr
+cd sigma_graphr
 ```
 
 ## Requirements
