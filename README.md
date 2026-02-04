@@ -24,7 +24,7 @@ This script is also available online (no code required) at:
   Splits the sequence into groups of 3 characters (codons), like `ATG`, `GCT`, `TAA`, etc. Each CSV column is the cumulative count of a triplet as you move codon-by-codon.
 
 Triplets mode is useful for codon-style visualisations and can be used to create plots like:
-![Example Σgraphr triplet plot](/assets/graphic_2.png)
+![Example Σgraphr triplet plot](/assets/graphic_2.jpg)
 
 ### Triplets mode details
 * Triplet columns are ordered deterministically as **A → G → C → U/T** per position (lexicographic by that base order), and **both `U` and `T` are accepted** (the script normalises to one for the output).
